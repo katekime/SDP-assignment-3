@@ -5,7 +5,7 @@ public class Main {
         PaymentService service = new PaymentService();
         Scanner sc = new Scanner(System.in);
 
-        while(true) {
+        while (true) {
             System.out.println("Please choose your bank");
             String bank = sc.nextLine();
 

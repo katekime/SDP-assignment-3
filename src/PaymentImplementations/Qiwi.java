@@ -12,8 +12,7 @@ public class Qiwi {
         }
         int total = (int) (sum * 1.05);
         if(total>balance) {
-            System.out.println("Qiwi: dont have enough balance.Try to pay " + sum + " +5% commission = " + total);
-            balance = 0;
+            System.out.println("Qiwi: dont have enough balance.Tried to pay " + sum + " +5% commission = " + total);
             System.out.println("Qiwi: Remaining balance is " + balance);
             return false;
         }

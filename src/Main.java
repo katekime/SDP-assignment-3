@@ -5,12 +5,9 @@ public class Main {
         PaymentService service = new PaymentService();
         Scanner sc = new Scanner(System.in);
 
-        while (true) {
-            System.out.println("Please choose your bank");
-            String bank = sc.nextLine();
+        System.out.println("Please choose your bank: Kaspi, Halyk, Qiwi, FreeDom");
+        String bank = sc.nextLine();
 
-            service.processPayment(bank);
-            break;
-        }
+        service.processPayment(bank);
     }
 }
